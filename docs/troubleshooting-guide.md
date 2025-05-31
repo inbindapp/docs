@@ -6,8 +6,6 @@ If you're stuck or something doesn't seem right, feel free to reach out — we'r
 
 📩 **Contact us at [inbindapp@gmail.com](mailto:inbindapp@gmail.com)**
 
----
-
 ## Issue: Publishing to Webflow Fails
 
 ### Problem 1: Unpublished Reference Items
@@ -30,7 +28,6 @@ If any of those referenced items haven't been published to your live site, the p
 3. Click **Publish** to publish that item to your site.
 4. Go back to the original item you intended to publish and try again.
 
----
 
 ### Problem 2: Collection Structure Changed but Site Not Published
 
@@ -43,8 +40,6 @@ If the site has not been published after making structural changes, publishing f
 1. Go to **Webflow**.
 2. In the Design view, publish the site.
 3. Return to Inbind and retry publishing your item.
-
----
 
 ## Issue: Changes in Webflow Are Not Reflected in Inbind
 
@@ -59,8 +54,6 @@ However, if you made some changes directly in Webflow, but they are not reflecte
 2. Click the **Sync Now** button in the **Manually Sync from Webflow** section.
 
 This will pull the latest version of all items in that collection.
-
----
 
 ## Still Need Help?
 
