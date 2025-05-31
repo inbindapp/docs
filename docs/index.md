@@ -8,8 +8,8 @@ hero:
   # tagline: My great project tagline
   actions:
     - theme: brand
-      text: Troubleshooting Publishing Issues
-      link: /publishing-issues
+      text: Troubleshooting Guide
+      link: /troubleshooting-guide
 
 # features:
 #   - title: Feature A
