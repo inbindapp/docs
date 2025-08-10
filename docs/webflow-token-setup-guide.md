@@ -22,7 +22,7 @@ To set up a new API token, follow these steps:
 ### In Webflow
 
 1. Open Webflow dashboard
-    1. Alternatively navigate directly to [https://webflow.com/dashboard/sites/<<YOUR-WEBFLOW-SITE>>/integrations](https://webflow.com/dashboard/sites/getartikl/integrations) by replacing in your Webflow site
+    1.1 Alternatively navigate directly to https://webflow.com/dashboard/sites/YOUR-WEBFLOW-SITE/integrations by replacing in your Webflow site
 2. Hover over the site you would like to add Inbind to and click on the ⚙️ icon on the top right
 3. Go to **Apps & integrations** from the left menu
 4. Scroll to **API access**
@@ -39,4 +39,5 @@ To set up a new API token, follow these steps:
 3. Paste the copied token into the field API key field
 4. Save Changes
 
-Your collections will be synced to Inbind automatically. If you do not see collections or fields, you can trigger a manual sync to retrieve the data from Webflow in the organization settings.
+Your collections will be synced to Inbind automatically. 
+If you do not see collections or fields, you can trigger a manual sync to retrieve the data from Webflow in the organization settings.
