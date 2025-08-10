@@ -7,7 +7,7 @@ Running into issues while using Inbind? We are working on making Inbind more sta
 
 If you're stuck or something doesn't seem right, feel free to reach out — we're happy to help.
 
-**Contact us at [inbindapp@gmail.com](mailto:inbindapp@gmail.com)**
+**Contact us at [hey@inbind.app](mailto:hey@inbind.app)**
 
 ## Issue: Publishing to Webflow Fails
 
