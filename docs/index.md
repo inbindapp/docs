@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Inbind Docs"
-  text: "Inbind documentation and support materials"
-  # tagline: My great project tagline
+  name: "Inbind"
+  text: "Helpful guides for getting the most out of Inbind"
+  tagline: "Inbind is the Faster Way to Manage Webflow content"
   actions:
     - theme: brand
-      text: Troubleshooting Guide
-      link: /troubleshooting-guide
+      text: Get Started with Inbind
+      link: /get-started
 
 # features:
 #   - title: Feature A

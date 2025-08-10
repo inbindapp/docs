@@ -14,15 +14,24 @@ export default defineConfig({
     //   { text: 'Examples', link: '/markdown-examples' }
     // ],
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: 'Articles',
+        items: [
+          { text: 'Get Started', link: '/get-started' },
+          //{ text: 'Managing Content', link: '/managing-content' },
+          //{ text: 'Creating & Editing Content', link: '/creating-content' },
+          //{ text: 'Publishing Content', link: '/publishing-content' },
+        ]
+      },
+      {
+        text: 'Guides',
+        items: [
+          { text: 'Troubleshooting Guide', link: '/troubleshooting-guide' },         
+          { text: 'How to Setup Your Webflow API Token', link: '/webflow-token-setup-guide' }
+        ]
+      }
+    ],
 
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
