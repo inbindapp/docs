@@ -18,4 +18,4 @@ Clicking on any of the rows in the collection table will open the item panel to 
 
 ## Troubleshooting
 
-Please review the troubleshooting article for common issues.
+Please review the [troubleshooting guide](/troubleshooting-guide) for common issues.

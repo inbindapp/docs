@@ -3,7 +3,7 @@ layout: doc
 ---
 
 # Get Started with Inbind
-Welcome to Inbind! This guide will get you started quickly to manage your Webflow content more efficiently Inbind.
+Welcome to Inbind! This guide will get you started quickly to manage your Webflow content more efficiently in Inbind.
 
 ## What is Inbind?
 
@@ -23,7 +23,7 @@ More of what’s to come you’ll find on [our website.](https://inbind.app/)
 ## Quick Setup Guide
 
 1. Create your Inbind account by signing up with a Google account
-2. Set up a Webflow API token in Webflow
+2. [Set up a Webflow API token in Webflow](/webflow-token-setup-guide)
 3. Connect your Webflow site by adding your Webflow API token in Inbind’s organization settings
 
 
@@ -35,4 +35,6 @@ Once you're set up, you can:
 - Create or edit content using the improved editor
 - Add powerful generated fields to your collections
 
-Need help? Email us at [hey@inbind.app](mailto:hey@inbind.app) if you have any questions about getting started with Inbind.
+::: info Need help?
+ Email us at [hey@inbind.app](mailto:hey@inbind.app) if you have any questions about getting started with Inbind.
+:::

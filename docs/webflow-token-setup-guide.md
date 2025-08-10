@@ -23,7 +23,7 @@ To set up a new API token, follow these steps:
 
 1. Open Webflow dashboard
     1.1 Alternatively navigate directly to https://webflow.com/dashboard/sites/YOUR-WEBFLOW-SITE/integrations by replacing in your Webflow site
-2. Hover over the site you would like to add Inbind to and click on the ⚙️ icon on the top right
+2. Hover over the site you would like to add Inbind to and click on the ⚙️ icon on the top right. If your sites are shown in a list, click on the “…” icon and select “Settings”
 3. Go to **Apps & integrations** from the left menu
 4. Scroll to **API access**
 5. Click **Generate API token**
@@ -34,7 +34,7 @@ To set up a new API token, follow these steps:
 
 ### In Inbind
 
-1. Open the organization settings from the top right corner by clicking on the ⚙️ icon
+1. Open the Organization settings from the top right corner by clicking on the ⚙️ icon
 2. Open the Webflow API key section
 3. Paste the copied token into the field API key field
 4. Save Changes
