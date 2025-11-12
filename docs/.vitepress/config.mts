@@ -19,9 +19,10 @@ export default defineConfig({
         text: 'Articles',
         items: [
           { text: 'Get Started', link: '/get-started' },
-          //{ text: 'Managing Content', link: '/managing-content' },
-          //{ text: 'Creating & Editing Content', link: '/creating-content' },
-          //{ text: 'Publishing Content', link: '/publishing-content' },
+          { text: 'Managing Content', link: '/managing-content' },
+          { text: 'Creating & Editing Content', link: '/creating-content' },
+          { text: 'Publishing Content', link: '/publishing-content' },
+          { text: 'Edit Fields', link: '/edit-fields' },
         ]
       },
       {
