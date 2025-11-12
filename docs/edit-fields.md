@@ -269,7 +269,7 @@ Destination collection
 As you can notice the values in the destination collection are generate according to the following template: 
 
 ```
-Car: <<Car>>
+Car <<Car>>
 
 <<Car>> is the greatest car ever made and delivers <<Horsepower>> horsepower. Their latest model <<Model>> offers an excellent combination of <<Highlights>>
 ```
