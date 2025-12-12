@@ -13,12 +13,13 @@ export default defineConfig({
     //   { text: 'Home', link: '/' },
     //   { text: 'Examples', link: '/markdown-examples' }
     // ],
+    logo: {src: 'favicon.ico', alt: 'Inbind Logo'},
 
     sidebar: [
       {
         text: 'Articles',
         items: [
-          { text: 'Get Started', link: '/get-started' },
+          { text: 'Get Started', link: '/index' },
           { text: 'Managing Content', link: '/managing-content' },
           { text: 'Creating & Editing Content', link: '/creating-content' },
           { text: 'Publishing Content', link: '/publishing-content' },
