@@ -1,25 +1,31 @@
 {
-  "hash": "97c01f3c",
-  "configHash": "5db7d175",
-  "lockfileHash": "97e64cbd",
-  "browserHash": "f5aa926d",
+  "hash": "ded97d03",
+  "configHash": "fbfbe851",
+  "lockfileHash": "c1f452db",
+  "browserHash": "b6c8193d",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a8c51e3b",
+      "fileHash": "cb72478b",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "f82be55c",
+      "fileHash": "5a6d8153",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "a91f67ff",
+      "fileHash": "0fd43528",
+      "needsInterop": false
+    },
+    "vitepress-plugin-tabs/client": {
+      "src": "../../../../node_modules/vitepress-plugin-tabs/dist/client/browser/index.js",
+      "file": "vitepress-plugin-tabs_client.js",
+      "fileHash": "6c177ca3",
       "needsInterop": false
     }
   },
