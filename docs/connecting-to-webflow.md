@@ -4,31 +4,50 @@ layout: doc
 
 # Connecting to Webflow
 
-Inbind integrates directly with Webflow CMS. Content is synced in both directions — changes you make in Inbind are pushed to Webflow, and changes made in Webflow are synced back to Inbind via webhooks.
+Inbind integrates directly with Webflow CMS. Content is synced in both directions — changes you make in Inbind are pushed to Webflow, and changes made in Webflow are synced back to Inbind automatically.
 
 ## Prerequisites
 
-You need a Webflow API token with the correct permissions. See [How to Set up Your Webflow API Token](/webflow-token-setup-guide) for detailed instructions.
+### What is the Webflow API token needed for?
 
-Your token needs **Read & Write** access to:
+Inbind communicates with Webflow's APIs using an API token. An API token is a secure way of providing Inbind with access to only specific resources within your Webflow site. Inbind uses the APIs to retrieve collection items, to create and update collection items and to upload assets such as images, documents or video to your Webflow asset manager.
 
-| Resource | Reason |
-| --- | --- |
-| Assets | To upload and manage images in Webflow's asset manager |
-| CMS | To create and update CMS collection items |
-| Sites | To retrieve site information and create webhooks |
+Inbind needs the following accesses to your Webflow project:
+
+| Resource | Access level | Reason |
+| --- | --- | --- |
+| Assets | Read & Write | To retrieve, update, and create images in the asset manager. |
+| CMS | Read & Write | To retrieve, update, and create collection items; retrieve information about collections. |
+| Sites | Read & Write | To retrieve information about the site Inbind connected to, and create webhooks. |
+
+### Generating Your Webflow API Token
+
+To generate a new API token, follow these steps in Webflow:
+
+1. Open Webflow dashboard
+   - Alternatively navigate directly to `https://webflow.com/dashboard/sites/YOUR-WEBFLOW-SITE/integrations` by replacing `YOUR-WEBFLOW-SITE` with your site ID
+2. Hover over the site you would like to add Inbind to and click on the ⚙️ icon on the top right. If your sites are shown in a list, click on the "…" icon and select "Settings"
+3. Go to **Apps & integrations** from the left menu
+4. Scroll to **API access**
+5. Click **Generate API token**
+6. Enter a **name** for your API token (for example *Inbind*)
+7. Select **Read & write** permissions for **Assets, CMS, and Sites**
+8. Click **Generate token**
+9. Copy the token — you'll need it in the next step
 
 ## Setting Up the Connection
+
+Once you have your Webflow API token, you can create the connection in Inbind.
 
 ### Step 1: Create the Connection
 
 1. Go to the **Connections** page in Inbind
 2. Click the **+** button to add a new connection
 3. Select **Webflow** from the destination options
-4. Paste your Webflow API token
+4. Paste your Webflow API token (from the previous step)
 5. Click **Create Connection**
 
-Inbind will validate your token and retrieve your Webflow site information. If validation succeeds, the connection is created and webhooks are automatically set up for two-way sync.
+Inbind will validate your token and retrieve your Webflow site information. If validation succeeds, the connection is created and automatic two-way sync is enabled.
 
 ### Step 2: Connect a Collection
 
@@ -48,35 +67,7 @@ When you create, edit, or publish content in Inbind, the changes are automatical
 
 ### Webflow to Inbind
 
-Inbind creates webhooks on your Webflow site to listen for changes. When a CMS item is created, updated, or deleted in Webflow, the change is synced back to Inbind.
-
-### Status Mapping
-
-| Inbind Status | Webflow Status |
-| --- | --- |
-| Draft | Draft |
-| Published | Published |
-| Archived | Archived |
-
-::: info
-For published items to appear on your live Webflow site, you still need to **publish your site** in the Webflow Designer. Publishing content in Inbind queues it for the next Webflow site publish.
-:::
-
-## Field Type Mapping
-
-Inbind field types are automatically mapped to their Webflow equivalents:
-
-| Inbind Type | Webflow Type |
-| --- | --- |
-| Text | Plain Text |
-| Rich Text | Rich Text |
-| Number | Number |
-| Date | Date |
-| Boolean | Boolean |
-| Link | Link |
-| Reference | Reference |
-| Select | Multi-select |
-| Attachment | Image |
+When a CMS item is created, updated, or deleted in Webflow, the change is automatically synced back to Inbind.
 
 ## Updating Your API Token
 
@@ -92,7 +83,7 @@ Inbind will re-validate the token and update the connection.
 ## Troubleshooting
 
 - **Publishing fails:** Check that your API token has not expired and has the correct permissions. See the [Troubleshooting Guide](/troubleshooting-guide) for common issues.
-- **Changes in Webflow not showing in Inbind:** Webhooks may need to be recreated. Try updating your API token in the connection settings to trigger webhook recreation.
+- **Changes in Webflow not showing in Inbind:** Try updating your API token in the connection settings to refresh the sync connection.
 - **Manual sync:** If data seems out of sync, open the connection settings and click the manual sync button.
 
 ::: info Need help?
