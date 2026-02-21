@@ -27,9 +27,25 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Managing Connections',
+        items: [
+          { text: 'Overview', link: '/managing-connections' },
+          { text: 'Connect to Webflow', link: '/connect-webflow' },
+          { text: 'Connect to Webstudio', link: '/connect-webstudio' },
+          { text: 'Connect to Astro', link: '/connect-astro' },
+          { text: 'Connect to Next.js', link: '/connect-nextjs' },
+          { text: 'Connect to Nuxt', link: '/connect-nuxt' },
+          { text: 'Connect to SvelteKit', link: '/connect-sveltekit' },
+          { text: 'Object Storages', link: '/object-storages', items: [
+            { text: 'Setting up Amazon S3', link: '/setup-amazon-s3' },
+            { text: 'Setting up Cloudflare R2', link: '/setup-cloudflare-r2' },
+          ]},
+        ]
+      },
+      {
         text: 'Guides',
         items: [
-          { text: 'Troubleshooting Guide', link: '/troubleshooting-guide' },         
+          { text: 'Troubleshooting Guide', link: '/troubleshooting-guide' },
           { text: 'How to Setup Your Webflow API Token', link: '/webflow-token-setup-guide' },
           { text: 'How to Style Inbind Tables in Webflow', link: '/styling-tables-guide' }
         ]
