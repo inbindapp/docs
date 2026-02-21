@@ -15,11 +15,11 @@ When edits have been made to any field, each edited field will show an option to
 
 When editing the name of the article, the slug will not change. The easiest way to also adjust the slug of the item is to click on the magic wand to copy the name to the slug. 
 
-Remember to set up any redirects directly in Webflow if you need to move content to a new URL.
+Remember to set up any redirects in your platform if you need to move content to a new URL.
 
 ## Image uploads
 
-Images are uploaded directly to Webflow’s asset manager, so you can reuse them in other parts of your site. Inbind automatically creates an asset folder called *[Inbind] CMS Assets* for all image uploads when you upload your first image. 
+Images are uploaded to your platform’s asset management system, so you can reuse them in other parts of your site.
 
 ## Rich text fields
 
@@ -30,7 +30,7 @@ Inbind supports the following standard text editing capabilities:
 - Images
 - Custom Code
 
-Additionally Inbind provides additional capabilities to your rich text fields that are not available in Webflow.
+Additionally, Inbind provides enhanced capabilities to your rich text fields.
 
 ### Dynamic heading highlighting
 
@@ -41,9 +41,17 @@ To ensure your articles follow the best structure and your styleguide, Inbind hi
 
 ### Tables
 
-You can add tables into your rich text, which will show up in Webflow as HTML. Inbind uses a standard HTML table structure that you can style to your liking within Webflow. You can add or remove columns and rows directly in the editor. Read more about how to style Inbind Tables.
+You can add tables into your rich text. Inbind uses a standard HTML table structure that you can style to your liking. You can add or remove columns and rows directly in the editor.
 
-## Current field limitations
+---
+
+## Content editing with Webflow
+
+### Image uploads
+
+For Webflow connections, images are uploaded directly to Webflow’s asset manager. Inbind automatically creates an asset folder called *[Inbind] CMS Assets* for all image uploads when you upload your first image.
+
+### Current field limitations
 
 There are some limitations to the field types in Webflow that Inbind currently doesn’t fully support.
 

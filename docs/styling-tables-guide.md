@@ -1,10 +1,9 @@
-# How to Style Inbind Tables in Webflow
+# How to Style Inbind Tables
 
 Inbind editor tables are rendered as standard HTML tables. You can use the examples below to help style your tables effectively.
 
 Here is an example of a table that Inbind outputs with 3 columns and 3 rows:
 
-::: details Show example table
 ```html
 <table style="min-width: 75px">
     <colgroup>
@@ -60,13 +59,9 @@ Here is an example of a table that Inbind outputs with 3 columns and 3 rows:
     </tbody>
   </table>
 ```
-:::
-
-The styling of the tables should be done in Webflow using the pages Custom Code section or adding a separate Code Embed to your collection template page.
 
 Here’s a sample styling for a basic table (applies to all tables on your page) that you can use freely:
 
-::: details Show example styling
 ```html
 <style>
   /* Ensure table borders collapse into a single border */
@@ -101,4 +96,7 @@ Here’s a sample styling for a basic table (applies to all tables on your page)
   }
 </style>
 ```
-:::
+
+## Styling in Webflow
+
+To style the tables in Webflow you can use the page’s Custom Code section, or add a separate Code Embed to your collection template page.

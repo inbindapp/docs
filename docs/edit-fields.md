@@ -10,7 +10,26 @@ There are two types of fields in Inbind:
 
 ### **What fields does Inbind support?**
 
-Inbind currently allows you to view and edit values of all fields available in the Webflow CMS. New fields can added and existing fields deleted. New fields and their values are by default only visible within Inbind and do not get synced. You can choose which fields are connected to Webflow and only synchronize fields that need to appear within your Webflow site. 
+Inbind supports the following field types:
+
+| Field Type | Description |
+| --- | --- |
+| **Text** | Plain text content without formatting |
+| **Rich text** | Formatted text with headings, lists, links, images, and custom code |
+| **Number** | Numeric values for quantities, prices, or calculations |
+| **Boolean** | True/false values for toggles and checkboxes |
+| **Datetime** | Date and time values for scheduling and timestamps |
+| **Url** | Web addresses and links |
+| **Image** | Single image uploads |
+| **Multi image** | Multiple image uploads |
+| **File** | Document and file uploads |
+| **Video** | Video file uploads |
+| **Color** | Color values for styling and design |
+| **Choice** | Single selection from predefined options |
+| **Reference** | Link to a single item from another collection |
+| **Multi reference** | Link to multiple items from another collection |
+
+New fields can be added and existing fields deleted. New fields and their values are by default only visible within Inbind and do not get synced to your connected platforms. You can choose which fields to sync and publish from each collection's connection settings.
 
 ## Generated fields
 
@@ -56,7 +75,12 @@ You can find example templates below for common use cases, for example creating 
 
 ### How do I set up a field based on another collection?
 
-Individual field values can be referred to from other collections by referring to the collection and its field name. For using a collection as a source collection and populating all items from the source collection, our team will need set up the source collection for your collection. Please reach out to us at [hey@inbind.app](mailto:hello@inbind.app) to setup the source collection.
+Individual field values can be referred to from other collections by referring to the collection and its field name. For using a collection as a source collection and populating all items from the source collection you can create a new collection and select a population source for the collection.
+
+When a new item is created in the source collection:
+
+1. An item is also created in the destination collection
+2. Any generated fields are evaluated
 
 ## Examples of Generated Fields usage
 
@@ -269,7 +293,7 @@ Destination collection
 As you can notice the values in the destination collection are generate according to the following template: 
 
 ```
-Car <<Car>>
+Car: <<Car>>
 
 <<Car>> is the greatest car ever made and delivers <<Horsepower>> horsepower. Their latest model <<Model>> offers an excellent combination of <<Highlights>>
 ```

@@ -46,8 +46,7 @@ export default defineConfig({
         text: 'Guides',
         items: [
           { text: 'Troubleshooting Guide', link: '/troubleshooting-guide' },
-          { text: 'How to Setup Your Webflow API Token', link: '/webflow-token-setup-guide' },
-          { text: 'How to Style Inbind Tables in Webflow', link: '/styling-tables-guide' }
+          { text: 'How to Style Inbind Tables', link: '/styling-tables-guide' }
         ]
       }
     ],
