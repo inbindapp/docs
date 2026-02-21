@@ -52,3 +52,5 @@ When creating the connection, enter the following:
 - **Access Key ID** and **Secret Access Key:** The credentials you created in Step 2
 - **Public URL:** Either your custom domain or public development URL, depending on which option you chose in Step 3
 - **Custom Endpoint URL:** The S3 API URL from your R2 object storage overview page under **Account Details**. It looks like `https://<your-account-id>.r2.cloudflarestorage.com`
+
+<NeedHelp />

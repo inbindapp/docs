@@ -35,3 +35,5 @@ If you have created a collection directly in your connected platform, you will n
 :::
 
 Please review the [troubleshooting guide](/troubleshooting-guide) for common issues.
+
+<NeedHelp />

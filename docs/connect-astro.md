@@ -93,3 +93,5 @@ const post = await response.json();
 ```
 
 For more on data fetching in Astro, see the [Astro Data Fetching docs](https://docs.astro.build/en/guides/data-fetching/).
+
+<NeedHelp />

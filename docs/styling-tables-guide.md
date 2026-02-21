@@ -100,3 +100,5 @@ Here’s a sample styling for a basic table (applies to all tables on your page)
 ## Styling in Webflow
 
 To style the tables in Webflow you can use the page’s Custom Code section, or add a separate Code Embed to your collection template page.
+
+<NeedHelp />

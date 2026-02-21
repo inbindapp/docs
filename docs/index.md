@@ -42,6 +42,4 @@ Once you're set up, you can:
 - Create or edit content using the improved editor
 - Add powerful generated fields to your collections
 
-::: info Need help?
- Email us at [hey@inbind.app](mailto:hey@inbind.app) if you have any questions about getting started with Inbind.
-:::
+<NeedHelp />

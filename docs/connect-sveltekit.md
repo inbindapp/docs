@@ -102,3 +102,5 @@ export async function load({ params, fetch }) {
 ```
 
 For more on data loading in SvelteKit, see the [SvelteKit Load docs](https://kit.svelte.dev/docs/load).
+
+<NeedHelp />

@@ -148,6 +148,4 @@ We recommend always using `:slug` as the parameter name to keep things consisten
 - Webstudio executes Resource requests server-side before serving the page. S3/R2-hosted JSON files are typically very fast, but if you experience slowness, consider setting a **Cache Max Age** on the Resource (e.g., 300 seconds).
 
 
-**Need help?**
-
-Email us at [**hey@inbind.app**](mailto:hey@inbind.app) if you have any questions about connecting Inbind to Webstudio.
+<NeedHelp />

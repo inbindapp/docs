@@ -87,6 +87,4 @@ The **name** and **slug** fields are always required and cannot be deselected.
 
 After connecting a collection to a storage-based destination, open the **Usage Instructions** tab in the configuration panel. This shows you the exact URLs where your content is published and framework-specific code examples for fetching the data.
 
-**Need help?**
-
-Email us at [**hey@inbind.app**](mailto:hey@inbind.app) if you have any questions about setting up connections.
+<NeedHelp />

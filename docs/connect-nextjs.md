@@ -101,3 +101,5 @@ export default async function BlogPostPage({ params }) {
 ```
 
 For more on data fetching in Next.js, see the [Next.js Data Fetching docs](https://nextjs.org/docs/app/building-your-application/data-fetching).
+
+<NeedHelp />

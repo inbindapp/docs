@@ -85,3 +85,5 @@ When creating the connection, enter the following:
 - **Access Key ID** and **Secret Access Key:** The credentials you created in Step 2
 - **Public URL:** Leave empty
 - **Custom Endpoint URL:** Leave empty
+
+<NeedHelp />

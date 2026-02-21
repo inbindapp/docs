@@ -4,6 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import './custom.css'
+import NeedHelp from './NeedHelp.vue'
 
 export default {
   extends: DefaultTheme,
@@ -12,7 +13,7 @@ export default {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
     })
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
+  enhanceApp({ app }) {
+    app.component('NeedHelp', NeedHelp)
   }
 } satisfies Theme

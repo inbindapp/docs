@@ -62,3 +62,5 @@ There are some limitations to the field types in Webflow that Inbind currently d
     - Webflow API currently does not support updating Option values, hence Inbind is not able to fully control Option fields
 
 If you would like to have additional capabilities in the text editor, you can always reach out to us at [hey@inbind.app](mailto:hey@inbind.app) and we’ll do our best to add new text editing capabilities.
+
+<NeedHelp />

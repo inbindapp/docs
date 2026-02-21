@@ -77,8 +77,4 @@ When a CMS item is created, updated, or deleted in Webflow, the change is automa
 - **Changes in Webflow not showing in Inbind:** Try updating your API token in the connection settings to refresh the sync connection.
 - **Manual sync:** If data seems out of sync, open the connection settings and click the manual sync button.
 
----
-
-**Need help?**
-
-Email us at [**hey@inbind.app**](mailto:hey@inbind.app) if you have any issues with your Webflow connection.
+<NeedHelp />

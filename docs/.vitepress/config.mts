@@ -24,18 +24,14 @@ export default defineConfig({
           { text: 'Creating & Editing Content', link: '/creating-content' },
           { text: 'Publishing Content', link: '/publishing-content' },
           { text: 'Edit Fields', link: '/edit-fields' },
-        ]
-      },
-      {
-        text: 'Managing Connections',
-        items: [
-          { text: 'Overview', link: '/managing-connections' },
-          { text: 'Connect to Webflow', link: '/connect-webflow' },
-          { text: 'Connect to Webstudio', link: '/connect-webstudio' },
-          { text: 'Connect to Astro', link: '/connect-astro' },
-          { text: 'Connect to Next.js', link: '/connect-nextjs' },
-          { text: 'Connect to Nuxt', link: '/connect-nuxt' },
-          { text: 'Connect to SvelteKit', link: '/connect-sveltekit' },
+          { text: 'Managing Connections', link: '/managing-connections', items: [
+            { text: 'Connect to Webflow', link: '/connect-webflow' },
+            { text: 'Connect to Webstudio', link: '/connect-webstudio' },
+            { text: 'Connect to Astro', link: '/connect-astro' },
+            { text: 'Connect to Next.js', link: '/connect-nextjs' },
+            { text: 'Connect to Nuxt', link: '/connect-nuxt' },
+            { text: 'Connect to SvelteKit', link: '/connect-sveltekit' },
+          ]},
           { text: 'Object Storages', link: '/object-storages', items: [
             { text: 'Setting up Amazon S3', link: '/setup-amazon-s3' },
             { text: 'Setting up Cloudflare R2', link: '/setup-cloudflare-r2' },

@@ -60,8 +60,4 @@ However, if you made some changes directly in Webflow, but they are not reflecte
 
 This will pull the latest version of all items in that collection.
 
-## Still Need Help?
-
-Don’t worry — we’ve got your back.
-
-Contact us anytime at [hey@inbind.app](mailto:hey@inbind.app) and we’ll investigate and help you resolve the issue as quickly as possible.
+<NeedHelp />

@@ -88,3 +88,5 @@ const { data: post } = await useFetch(() => `YOUR_BASE_URL/content/{organization
 ```
 
 For more on data fetching in Nuxt, see the [Nuxt Data Fetching docs](https://nuxt.com/docs/getting-started/data-fetching).
+
+<NeedHelp />

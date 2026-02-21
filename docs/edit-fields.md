@@ -306,3 +306,5 @@ With Webflow the same can be achieved in two ways:
 2. Using multiple code embeds to create combined value that includes a CMS item’s value and any static text, but you will need to define the HTML for each element manually.
 
 With Inbind, it only needs two things: a source collection used as a population source and the destination collection where you would have field values generated based on the template.
+
+<NeedHelp />
