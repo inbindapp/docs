@@ -8,6 +8,7 @@ Inbind lets you manage content and publish it for use in an Astro website. Conte
 
 ## Prerequisites
 
+- An existing Astro site set up and ready to render content
 - An object storage to store and serve the content from, e.g. AWS S3 or Cloudflare R2. See more at [Object Storages](/object-storages)
 
 ## Set up the Connection in Inbind
