@@ -24,7 +24,9 @@ export default defineConfig({
           { text: 'Creating & Editing Content', link: '/creating-content' },
           { text: 'Blocks', link: '/blocks' },
           { text: 'Publishing Content', link: '/publishing-content' },
-          { text: 'Edit Fields', link: '/edit-fields' },
+          { text: 'Edit Fields', link: '/edit-fields', items: [
+            { text: 'Generated Fields', link: '/generated-fields' },
+          ]},
           { text: 'Managing Connections', link: '/managing-connections', items: [
             { text: 'Connect to Webflow', link: '/connect-webflow' },
             { text: 'Connect to Webstudio', link: '/connect-webstudio' },
