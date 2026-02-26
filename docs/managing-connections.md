@@ -51,6 +51,7 @@ The Connections page in Inbind is organized into three columns:
 1. **Connections list** (left): shows all your connections. Click the **+** button to add a new connection.
 2. **Collections list** (middle): shows the collections linked to the selected connection. Click **+ Connect Collection** to link a new collection.
 3. **Configuration panel** (right): shows the settings and field mapping for the selected connection or collection.
+![Connections page showing the three-column layout](/screenshots/connections-page.png)
 
 ### Adding a Connection
 
@@ -58,6 +59,7 @@ The Connections page in Inbind is organized into three columns:
 2. Select a destination
 3. Enter the required credentials for your chosen destination
 4. Click **Create Connection**
+![Add Connection view showing available destination options](/screenshots/add-connection-view.png)
 
 ### Connecting a Collection
 

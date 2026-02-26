@@ -20,6 +20,7 @@ An item has a Draft status when changes have been made that aren’t yet publish
 ## Publishing Collection Items
 
 You can publish your collection items at any time after creating them. The publishing behavior may vary depending on your connected platform.
+![Item panel showing Save as draft and Publish buttons](/screenshots/item-panel-action-bar.png)
 
 ---
 
