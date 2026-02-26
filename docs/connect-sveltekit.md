@@ -18,7 +18,7 @@ Inbind lets you manage content and publish it for use in a SvelteKit website. Co
 1. Go to the **Connections** page in Inbind
 2. Click the **+** button to add a new connection
 3. Select **SvelteKit**
-4. Provide the credentials for the storage you set up. If you haven't configured your storage yet, follow the setup guide for your provider - see [Object Storage setup guides](/object-storages#setup-guides).
+4. Provide the credentials for the storage you set up. If you haven't configured your storage yet, follow the setup guide for your provider. See [Object Storage setup guides](/object-storages#setup-guides).
 5. Click **Create Connection**
 
 ### Step 2: Connect a Collection
@@ -26,27 +26,27 @@ Inbind lets you manage content and publish it for use in a SvelteKit website. Co
 1. Select your framework connection
 2. Click **+ Connect Collection**
 3. Choose the collection you want to publish
-4. Select the **published fields** - included in each item's full JSON
-5. Select the **index fields** - included in the collection index (used for listing pages, keep it lightweight)
+4. Select the **published fields**, which are included in each item's full JSON
+5. Select the **index fields**, which are included in the collection index (used for listing pages, keep it lightweight)
 6. Click **Connect Collection**
 
 ### Step 3: Note Your URLs
 
 After connecting, open the **Usage Instructions** tab to find your content URLs:
 
-- **Index URL** - Returns all items with index fields:
+- **Index URL** (returns all items with index fields):
 
   ```
   {base-url}/content/{organization-id}/{collection-slug}/_index.json
   ```
 
-- **Item URL** - Returns a single item with all published fields:
+- **Item URL** (returns a single item with all published fields):
 
   ```
   {base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json
   ```
 
-For the exact URLs of your collection, check the app - see [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
+For the exact URLs of your collection, check the app. See [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
 
 ## Render Content on Your SvelteKit Site
 

@@ -5,7 +5,7 @@ layout: doc
 
 Running into issues while using Inbind? We are working on making Inbind more stable and reliable, but if you still face an issue, use this guide to resolve it.
 
-If you’re stuck or something doesn’t seem right, feel free to reach out - we’re happy to help.
+If you’re stuck or something doesn’t seem right, feel free to reach out. We’re happy to help.
 
 :::info Reach out to us
 Contact us at [hey@inbind.app](mailto:hey@inbind.app)
@@ -35,7 +35,7 @@ If any of those referenced items haven’t been published to your live site, the
 
 ### Problem 2: Collection Structure Changed but Webflow Site Not Published
 
-If you make changes to a Webflow Collection’s structure - for example, **adding or modifying fields** - those changes must be published to your site before Inbind can publish items to that collection.
+If you make changes to a Webflow Collection’s structure (for example, **adding or modifying fields**), those changes must be published to your site before Inbind can publish items to that collection.
 
 If the site has not been published after making structural changes, publishing from Inbind will fail.
 
