@@ -27,18 +27,27 @@ Inbind can serve as a headless CMS for your [Webstudio](https://webstudio.is/) s
 1. Select your Webstudio connection
 2. Click **+ Connect Collection**
 3. Choose the collection you want to use in Webstudio
-4. Select the **published fields** — these are included in each item's JSON
-5. Select the **index fields** — these are included in the collection index file (used on listing pages, keep it lightweight)
+4. Select the **published fields**, which are included in each item's JSON
+5. Select the **index fields**, which are included in the collection index file (used on listing pages, keep it lightweight)
 6. Click **Connect Collection**
 
 ### Step 3: Get the URLs
 
 After connecting a collection, open the **Usage Instructions** tab to find your content URLs:
 
-- **Index URL:** `{base-url}/content/{organization-id}/{collection-slug}/_index.json` — Returns all items with index fields
-- **Item URL:** `{base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json` — Returns a single item with all published fields
+- **Index URL** (returns all items with index fields):
 
-For the exact URLs of your collection, check the app — see [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
+  ```
+  {base-url}/content/{organization-id}/{collection-slug}/_index.json
+  ```
+
+- **Item URL** (returns a single item with all published fields):
+
+  ```
+  {base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json
+  ```
+
+For the exact URLs of your collection, check the app. See [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
 
 You will need these URLs when setting up Resources in Webstudio.
 
@@ -53,15 +62,19 @@ To display a list of items (e.g., a blog index page):
 3. In the Data variables panel, click **+** and select **Resource**
 4. Name it (e.g., `allPosts`)
 5. Configure the Resource:
-    - **URL:** Paste your index URL from Inbind (e.g., `https://your-storage-url/content/org-id/collection-slug/_index.json`)
+    - **URL:** Paste your index URL from Inbind, for example:
+
+      ```
+      https://your-storage-url/content/{org-id}/{collection-slug}/_index.json
+      ```
     - **Method:** GET
 6. Add a **Collection** component to your page
 7. Bind its **Data** property to the items array from your Resource (e.g., `allPosts.data.items`)
 8. Rename the Collection Item variable to something meaningful (e.g., `Post`)
 9. Add child components inside the Collection and bind their content:
-    - **Link** — Set href to an expression like `/blog/${Post.slug}`
-    - **Heading** — Bind text content to `Post.title`
-    - **Paragraph** — Bind to `Post.excerpt` or any other index field
+    - **Link**: set href to an expression like `/blog/${Post.slug}`
+    - **Heading**: bind text content to `Post.title`
+    - **Paragraph**: bind to `Post.excerpt` or any other index field
 
 ### Creating a Dynamic Detail Page
 
@@ -78,13 +91,15 @@ The `:slug` part defines a URL parameter. When someone visits `/blog/my-post`, t
 4. Configure the Resource:
     - **URL:** Build the URL using the slug parameter:
 
-      `"https://your-storage-url/content/org-id/collection-slug/"+${system.params.slug}+".json"`
+      ```
+      "https://your-storage-url/content/{org-id}/{collection-slug}/"+${system.params.slug}+".json"
+      ```
 
     - **Method:** GET
 5. Add components to the page and bind them to the Resource data:
-    - **Heading** — Bind text content to `postData.title`
-    - **Content Embed** — Bind to `postData.body` (for HTML rich text content)
-    - **Image** — Bind src to `postData.image` and alt text accordingly
+    - **Heading**: bind text content to `postData.title`
+    - **Content Embed**: bind to `postData.body` (for HTML rich text content)
+    - **Image**: bind src to `postData.image` and alt text accordingly
     - Any other components for your published fields
 
 ### Binding Data to Elements
@@ -118,7 +133,7 @@ Since the Resource is defined on the Body element, you can use it in Page Settin
 When someone visits a URL with a slug that doesn't exist, the Resource will return empty data. To handle this:
 
 1. In Page Settings, set the **Status Code** to an expression: `!postData.title ? 404 : 200`
-2. Create two sections on the page — one for content, one for a "Page not found" message
+2. Create two sections on the page: one for content and one for a "Page not found" message
 3. Set the **Show** property of the content section to `postData.title` (shows when data exists)
 4. Set the **Show** property of the 404 section to `!postData.title` (shows when no data)
 

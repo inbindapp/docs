@@ -1,6 +1,6 @@
 # Blocks
 
-Blocks let you insert the content of another item's rich text field directly into a rich text field. When the referenced item's value changes, the block automatically updates everywhere it's used — no need to find and update every occurrence manually.
+Blocks let you insert the content of another item's rich text field directly into a rich text field. When the referenced item's value changes, the block automatically updates everywhere it's used, so there's no need to find and update every occurrence manually.
 
 Common use cases include reusable CTAs, legal disclaimers, author bios, shared boilerplate text, and any other content that appears in multiple items.
 
