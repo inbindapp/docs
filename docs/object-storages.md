@@ -23,7 +23,7 @@ You will then see URLs like:
 - **Index URL:** `{base-url}/content/{organization-id}/{collection-slug}/_index.json`
 - **Item URL:** `{base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json`
 
-The exact URLs for each collection are shown in the **Usage Instructions** tab after connecting a collection — see [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
+The exact URLs for each collection are shown in the **Usage Instructions** tab after connecting a collection - see [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
 
 ## File format (what gets published)
 

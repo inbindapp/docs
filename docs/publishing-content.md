@@ -6,9 +6,9 @@ Publishing content in Inbind allows you to control when your content goes live o
 
 Inbind uses a simplified set of statuses to manage your content:
 
-- **Draft** — Content that has been created or modified but not yet published
-- **Published** — Content that is live on your connected platform
-- **Archived** — Content that has been removed from publication
+- **Draft** - Content that has been created or modified but not yet published
+- **Published** - Content that is live on your connected platform
+- **Archived** - Content that has been removed from publication
 
 ## Drafts
 

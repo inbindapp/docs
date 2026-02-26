@@ -18,7 +18,7 @@ Inbind supports two categories of connections:
 
 ### Webflow
 
-Connects directly to the Webflow CMS API. Content is synced as Webflow CMS collection items, and changes flow in both directions — edits in Inbind are pushed to Webflow, and edits in Webflow are synced back.
+Connects directly to the Webflow CMS API. Content is synced as Webflow CMS collection items, and changes flow in both directions - edits in Inbind are pushed to Webflow, and edits in Webflow are synced back.
 
 See [How to Connect to Webflow](/connect-webflow) for setup instructions.
 
@@ -48,9 +48,9 @@ To access Connections Page, click Plug (🔌) button in the top-right corner of 
 
 The Connections page in Inbind is organized into three columns:
 
-1. **Connections list** (left) — Shows all your connections. Click the **+** button to add a new connection.
-2. **Collections list** (middle) — Shows the collections linked to the selected connection. Click **+ Connect Collection** to link a new collection.
-3. **Configuration panel** (right) — Shows the settings and field mapping for the selected connection or collection.
+1. **Connections list** (left) - Shows all your connections. Click the **+** button to add a new connection.
+2. **Collections list** (middle) - Shows the collections linked to the selected connection. Click **+ Connect Collection** to link a new collection.
+3. **Configuration panel** (right) - Shows the settings and field mapping for the selected connection or collection.
 
 ### Adding a Connection
 
@@ -72,8 +72,8 @@ The Connections page in Inbind is organized into three columns:
 
 When connecting a collection, you choose which fields to publish:
 
-- **Published fields** — Included in the full item data (used on detail pages)
-- **Index fields** (storage-based only) — Included in the collection index file (used on listing pages to keep the index lightweight)
+- **Published fields** - Included in the full item data (used on detail pages)
+- **Index fields** (storage-based only) - Included in the collection index file (used on listing pages to keep the index lightweight)
 
 The **name** and **slug** fields are always required and cannot be deselected.
 
