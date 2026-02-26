@@ -21,8 +21,9 @@ export default defineConfig({
         items: [
           { text: 'Get Started', link: '/index' },
           { text: 'Managing Content', link: '/managing-content' },
-          { text: 'Creating & Editing Content', link: '/creating-content' },
-          { text: 'Blocks', link: '/blocks' },
+          { text: 'Creating & Editing Content', link: '/creating-content', items: [
+            { text: 'Blocks', link: '/blocks' }
+          ]},
           { text: 'Publishing Content', link: '/publishing-content' },
           { text: 'Edit Fields', link: '/edit-fields', items: [
             { text: 'Generated Fields', link: '/generated-fields' },
