@@ -34,8 +34,17 @@ Inbind lets you manage content and publish it for use in a SvelteKit website. Co
 
 After connecting, open the **Usage Instructions** tab to find your content URLs:
 
-- **Index URL:** `{base-url}/content/{organization-id}/{collection-slug}/_index.json` — Returns all items with index fields
-- **Item URL:** `{base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json` — Returns a single item with all published fields
+- **Index URL** — Returns all items with index fields:
+
+  ```
+  {base-url}/content/{organization-id}/{collection-slug}/_index.json
+  ```
+
+- **Item URL** — Returns a single item with all published fields:
+
+  ```
+  {base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json
+  ```
 
 For the exact URLs of your collection, check the app — see [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
 

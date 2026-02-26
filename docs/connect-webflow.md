@@ -27,7 +27,11 @@ Inbind needs the following accesses to your Webflow project:
 To create a new API token, **follow these steps in Webflow**:
 
 1. Open Webflow dashboard
-    - Alternatively navigate directly to `https://webflow.com/dashboard/sites/YOUR-WEBFLOW-SITE/integrations` by replacing `YOUR-WEBFLOW-SITE` with your site ID
+    - Alternatively navigate directly to the site integrations page (replace `YOUR-WEBFLOW-SITE` with your site ID):
+
+      ```
+      https://webflow.com/dashboard/sites/YOUR-WEBFLOW-SITE/integrations
+      ```
 2. Hover over the site you would like to add Inbind to and click on the ⚙️ icon on the top right. If your sites are shown in a list, click on the "…" icon and select "Settings"
 3. Go to **Apps & integrations** from the left menu
 4. Scroll to **API access**

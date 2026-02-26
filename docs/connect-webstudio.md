@@ -35,8 +35,17 @@ Inbind can serve as a headless CMS for your [Webstudio](https://webstudio.is/) s
 
 After connecting a collection, open the **Usage Instructions** tab to find your content URLs:
 
-- **Index URL:** `{base-url}/content/{organization-id}/{collection-slug}/_index.json` — Returns all items with index fields
-- **Item URL:** `{base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json` — Returns a single item with all published fields
+- **Index URL** — Returns all items with index fields:
+
+  ```
+  {base-url}/content/{organization-id}/{collection-slug}/_index.json
+  ```
+
+- **Item URL** — Returns a single item with all published fields:
+
+  ```
+  {base-url}/content/{organization-id}/{collection-slug}/{item-slug}.json
+  ```
 
 For the exact URLs of your collection, check the app — see [Viewing Usage Instructions](/managing-connections#viewing-usage-instructions).
 
@@ -53,7 +62,11 @@ To display a list of items (e.g., a blog index page):
 3. In the Data variables panel, click **+** and select **Resource**
 4. Name it (e.g., `allPosts`)
 5. Configure the Resource:
-    - **URL:** Paste your index URL from Inbind (e.g., `https://your-storage-url/content/org-id/collection-slug/_index.json`)
+    - **URL:** Paste your index URL from Inbind, for example:
+
+      ```
+      https://your-storage-url/content/{org-id}/{collection-slug}/_index.json
+      ```
     - **Method:** GET
 6. Add a **Collection** component to your page
 7. Bind its **Data** property to the items array from your Resource (e.g., `allPosts.data.items`)
@@ -78,7 +91,9 @@ The `:slug` part defines a URL parameter. When someone visits `/blog/my-post`, t
 4. Configure the Resource:
     - **URL:** Build the URL using the slug parameter:
 
-      `"https://your-storage-url/content/org-id/collection-slug/"+${system.params.slug}+".json"`
+      ```
+      "https://your-storage-url/content/{org-id}/{collection-slug}/"+${system.params.slug}+".json"
+      ```
 
     - **Method:** GET
 5. Add components to the page and bind them to the Resource data:
