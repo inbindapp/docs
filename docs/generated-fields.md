@@ -20,11 +20,9 @@ Generated fields can also be used to populate an entire collection's field value
 
 ## How do I create a generated field?
 
-In the Field Settings page, click on Add Generated Field.
-![Field properties form showing the Add template link for creating a generated field](/screenshots/add-template-link.png)
+In the Field Settings page, click on Add Field.
 
 Give your field a name and add a template for how we should populate this field's value.
-![Template editor showing a word count example template](/screenshots/generated-field-template-editor.png)
 
 Generated fields templates can use any field's value from the current collection as well as other collections the collection is related to with reference fields.
 
@@ -38,7 +36,11 @@ Then select which type of field it should be. A generated field can be one of th
 - Number
 - URL
 
-Finally, click on Create Field
+![The template editor showing the field list on the left and a Liquid template in the editor on the right](/screenshots/generated-field-create.png)
+
+Finally, click on Create Field.
+
+![Collection table showing a generated "Word count" field column with numeric values populated for each item](/screenshots/generated-field-result.png)
 
 You can find example templates below for common use cases, for example creating a "Reading time" field.
 

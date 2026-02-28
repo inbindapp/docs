@@ -5,25 +5,18 @@ With Inbind you can easily create new collection items or edit existing collecti
 - To edit an item, simply click on the item in the collection table
 - To create a new item, click on the "New item" button.
 
-![Create Item button in the collection table toolbar](/screenshots/create-item-button.png)
-
 The item panel will display all of the fields that have been set up for the collection.
-
-![Item panel open showing all collection fields](/screenshots/item-panel-edit.png)
+![Item detail panel open alongside the collection table](/screenshots/item-panel-open.png)
 
 The mandatory name and slug fields are shown on the top of the panel.
 
 When edits have been made to any field, each edited field will show an option to easily revert the field back to its previous state before the edits were made.
-
-![Revert button shown on a field after editing](/screenshots/field-revert.png)
 
 ## Collection item name & slug
 
 When editing the name of the article, the slug will not change. The easiest way to also adjust the slug of the item is to click on the magic wand to copy the name to the slug.
 
 Remember to set up any redirects in your platform if you need to move content to a new URL.
-
-![Name and slug fields with magic wand button](/screenshots/name-slug-fields.png)
 
 ## Image uploads
 
@@ -46,8 +39,7 @@ To ensure your articles follow the best structure and your styleguide, Inbind hi
 
 - Heading tags are highlighted on the left of the heading text and show which level of a heading is being used
 - Bolded/emphasized words are highlighted by underlining the text that has been bolded
-
-![Rich text editor with heading level indicators and bold highlighting](/screenshots/rich-text-editor.png)
+![Rich text editor showing heading level indicators and dotted underline on bolded text within a heading](/screenshots/rich-text-heading-highlight.png)
 
 ### Tables
 

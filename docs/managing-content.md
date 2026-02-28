@@ -8,15 +8,12 @@ The collection selector allows you to switch between your collections. All of yo
 
 From the collection selector, you can also create new collections.
 
-![Collection selector open showing available collections](/screenshots/collection-selector-open.png)
-
 ### Creating a new collection
 
 To create a new collection, open the Collection selector. On the bottom of the selector choose, "Create New Collection".
+![Collection selector open, showing available collections and a Create New Collection option at the bottom](/screenshots/collection-selector.png)
 
 Enter a name for the collection. You can adjust the automatically filled in collection slug. Finally, press save.
-
-![Create New Collection dialog](/screenshots/create-collection-dialog.png)
 
 ::: info
 As of now, it is not possible to edit or remove collections in Inbind. If you need to adjust collection names or slugs, you will need to do so in your connected platform.
@@ -25,16 +22,14 @@ As of now, it is not possible to edit or remove collections in Inbind. If you ne
 ## Collection table
 
 The collection table displays all of the items in your collection and collection fields as columns.
-
-![Collection table showing items and fields](/screenshots/collection-table.png)
+![Collection table showing items as rows with collection fields as columns](/screenshots/collection-table.png)
 
 You can choose to show all collection fields, or select which columns you would like to show. Your last selection will be remembered the next time you open the collection table.
-
-![Column visibility controls](/screenshots/collection-table-columns.png)
 
 The table is sorted by created date of the item by default. The table can be sorted by any of the columns, with the exception of long content fields, for example blog article texts, and image fields.
 
 Clicking on any of the cells in the collection table will open the item panel to the field value if you clicked on for easy editing.
+![Collection table with the item detail panel open on the right side](/screenshots/collection-table-item-panel.png)
 
 ## Troubleshooting
 

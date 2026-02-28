@@ -51,7 +51,7 @@ The Connections page in Inbind is organized into three columns:
 1. **Connections list** (left): shows all your connections. Click the **+** button to add a new connection.
 2. **Collections list** (middle): shows the collections linked to the selected connection. Click **+ Connect Collection** to link a new collection.
 3. **Configuration panel** (right): shows the settings and field mapping for the selected connection or collection.
-![Connections page showing the three-column layout](/screenshots/connections-page.png)
+![Connections page showing the three-column layout: connections list on the left, linked collections in the middle, and the field mapping configuration panel on the right](/screenshots/connections-page-overview.png)
 
 ### Adding a Connection
 
@@ -59,7 +59,6 @@ The Connections page in Inbind is organized into three columns:
 2. Select a destination
 3. Enter the required credentials for your chosen destination
 4. Click **Create Connection**
-![Add Connection view showing available destination options](/screenshots/add-connection-view.png)
 
 ### Connecting a Collection
 
@@ -78,6 +77,7 @@ When connecting a collection, you choose which fields to publish:
 - **Index fields** (storage-based only): included in the collection index file (used on listing pages to keep the index lightweight)
 
 The **name** and **slug** fields are always required and cannot be deselected.
+![Field mapping panel showing published and index field checkboxes for each field in the collection](/screenshots/connections-field-mapping.png)
 
 ### Editing Connection Settings
 
@@ -88,5 +88,6 @@ The **name** and **slug** fields are always required and cannot be deselected.
 ### Viewing Usage Instructions
 
 After connecting a collection to a storage-based destination, open the **Usage Instructions** tab in the configuration panel. This shows you the exact URLs where your content is published and framework-specific code examples for fetching the data.
+![Usage Instructions tab showing the published content URLs and a framework-specific code example for fetching data](/screenshots/connections-usage-instructions.png)
 
 <NeedHelp />

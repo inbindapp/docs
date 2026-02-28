@@ -11,12 +11,13 @@ Blocks are inserted through the slash command menu inside any rich text field:
 1. Place your cursor in the rich text field where you want the block to appear
 2. Type `/` to open the command menu
 3. Select **Block** from the menu
-![Slash command menu showing the Block option at the top](/screenshots/slash-command-menu.png)
 4. Choose a **collection**, then an **item**, then a **field**
-![Block selector showing the collection list](/screenshots/block-selector-collection.png)
-5. The block is inserted with a live preview of the referenced content
-![Completed block reference showing a live preview of the referenced content](/screenshots/block-reference-preview.png)
 
+![The block picker showing the Select Collection step, appearing inline in the rich text editor after choosing Block from the slash command menu](/screenshots/blocks-picker.png)
+
+5. The block is inserted with a live preview of the referenced content
+
+![A rendered block card showing a Glossary definition embedded within a blog post editor](/screenshots/blocks-in-context.png)
 
 ## Automatic updates
 

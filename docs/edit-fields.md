@@ -30,8 +30,6 @@ Inbind supports the following field types:
 | **Multi reference** | Link to multiple items from another collection |
 
 New fields can be added and existing fields deleted. New fields and their values are by default only visible within Inbind and do not get synced to your connected platforms. You can choose which fields to sync and publish from each collection’s connection settings.
-![Field settings page showing the field list on the left and field properties on the right](/screenshots/field-settings-page.png)
-![Field type selector dropdown showing all available field types](/screenshots/field-type-selector.png)
 
 ## Generated fields
 
