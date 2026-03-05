@@ -46,7 +46,7 @@ You can find example templates below for common use cases, for example creating 
 
 ## When are generated fields rendered?
 
-Generated fields are rendered automatically whenever you create or update a field's template. When this happens, Inbind goes through all items in the collection and recalculates the field value for each of them based on the template.
+Generated fields are rendered automatically when you create or update a field's template, or when any field referenced in the template is updated. Inbind recalculates the value for each affected item automatically.
 
 You can also trigger rendering manually. On the collection page, click the **⋮** button above the content table and select **Render generated fields**.
 
