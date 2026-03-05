@@ -44,6 +44,12 @@ Finally, click on Create Field.
 
 You can find example templates below for common use cases, for example creating a "Reading time" field.
 
+## When are generated fields rendered?
+
+Generated fields are rendered automatically whenever you create or update a field's template. When this happens, Inbind goes through all items in the collection and recalculates the field value for each of them based on the template.
+
+You can also trigger rendering manually. On the collection page, click the **⋮** button above the content table and select **Render generated fields**.
+
 ## How do I set up a field based on another collection?
 
 Individual field values can be referred to from other collections by referring to the collection and its field name. For using a collection as a source collection and populating all items from the source collection you can create a new collection and select a population source for the collection.
