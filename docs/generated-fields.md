@@ -71,9 +71,9 @@ In the following example we do the following steps to end up with a field called
 - assign the plain_text to a words array split by spaces
 - count the size of the words array to derive the count of words in the article
 
-```html
-{% assign plain_text = post-body | strip_html | strip_newlines | replace: "  ", " " %}
-{% assign words = plain_text | split: " " %}
+```
+{%- assign plain_text = post-body | strip_html | strip_newlines | replace: "  ", " " -%}
+{%- assign words = plain_text | split: " " -%}
 {{ words | size }}
 ```
 
@@ -87,10 +87,9 @@ In the following example we are using the result of the previous word count exam
 - add the reading time with the text "min read" to create the final value of the field
     - you can adjust the text to your liking, if you for example prefer to say "minutes" or any other variation of copy
 
-```html
-{% assign words_per_minute = 225 %}
-{% assign reading_time = word-count | divided_by: words_per_minute | ceil %}
-
+```
+{%- assign words_per_minute = 225 -%}
+{%- assign reading_time = word-count | divided_by: words_per_minute | ceil -%}
 {{ reading_time }} min read
 ```
 
